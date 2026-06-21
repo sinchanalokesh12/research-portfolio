@@ -1,39 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Sinchana Research Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sinchana D L | Research Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Segoe UI, sans-serif;
+    background:#f4f7fc;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#1e293b;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:42px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+nav{
+    background:#0f172a;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#60a5fa;
+}
+
+.container{
+    width:85%;
+    max-width:1000px;
+    margin:auto;
+    padding:30px 0;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+.card h2{
+    color:#1e293b;
+    margin-bottom:15px;
+}
+
+.paper{
+    background:#eef4ff;
+    padding:15px;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+.paper a{
+    display:inline-block;
+    margin-top:10px;
+    text-decoration:none;
+    background:#2563eb;
+    color:white;
+    padding:10px 15px;
+    border-radius:5px;
+}
+
+.paper a:hover{
+    background:#1d4ed8;
+}
+
+ul{
+    margin-left:20px;
+}
+
+footer{
+    background:#1e293b;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+.contact p{
+    margin-bottom:8px;
+}
+
+</style>
+
 </head>
+
 <body>
 
+<header>
     <h1>Sinchana D L</h1>
+    <p>BE CSE (AI & ML) Student | Research Enthusiast</p>
+</header>
 
-    <h2>About Me</h2>
-    <p>
-        I am a BE CSE (AI & ML) student at VVCE Mysore.
-        My interests include Artificial Intelligence,
-        Machine Learning, Data Analytics, and Research.
-    </p>
-<h2>Research Papers</h2>
+<nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-<a href="BlueCollar.pdf" target="_blank">
-    Download Blue Collar Project
-</a>
+<div class="container">
 
-    <ul>
-        <li>Research Paper 1</li>
-        <li>Research Paper 2</li>
-    </ul>
+    <div class="card" id="about">
+        <h2>About Me</h2>
 
-    <h2>Projects</h2>
+        <p>
+            I am a Computer Science Engineering student specializing in
+            Artificial Intelligence and Machine Learning at VVCE Mysore.
+            My interests include Artificial Intelligence, Machine Learning,
+            Data Analytics, Research, and Software Development.
+        </p>
 
-    <ul>
-        <li>Blue-Collar Job Portal</li>
-        <li>Netflix Data Analysis</li>
-    </ul>
+        <br>
 
-    <h2>Contact</h2>
+        <p>
+            I am passionate about building innovative solutions,
+            publishing research, and applying technology to solve
+            real-world problems.
+        </p>
+    </div>
 
-    <p>Email: sinchanalokeshsinchu@gmail.com</p>
+    <div class="card" id="research">
+
+        <h2>Research Papers</h2>
+
+        <div class="paper">
+            <h3>Blue-Collar Job Portal</h3>
+
+            <p>
+                A web-based platform connecting blue-collar workers
+                with employers through a simple and accessible
+                recruitment system.
+            </p>
+
+            <a href="BlueCollar.pdf" target="_blank">
+                View / Download Paper
+            </a>
+        </div>
+
+    </div>
+
+    <div class="card" id="projects">
+
+        <h2>Projects</h2>
+
+        <ul>
+            <li>Blue-Collar Job Portal</li>
+            <li>Pharmacogenomics Study</li>
+            <li>Netflix Data Analysis</li>
+            <li>Future Research Projects</li>
+        </ul>
+
+    </div>
+
+    <div class="card contact" id="contact">
+
+        <h2>Contact</h2>
+
+        <p><strong>Email:</strong> sinchanalokeshsinchu@gmail.com</p>
+
+        <p><strong>GitHub:</strong> sinchanalokesh12</p>
+
+        <p><strong>College:</strong> VVCE Mysore</p>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Sinchana D L | Research Portfolio
+</footer>
 
 </body>
 </html>
